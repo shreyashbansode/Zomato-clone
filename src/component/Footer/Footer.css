@@ -1,0 +1,72 @@
+section {
+  height: 100%;
+  width: 100%;
+}
+.section_footer {
+  height: 90px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.zomato_img_footer {
+  height: 60px;
+  width: 80%;
+  /* background-color: aqua; */
+}
+
+.zomato_img_footer img {
+  height: 40px;
+  width: 120px;
+  /* background-color: black; */
+}
+
+.flag {
+  height: 40px;
+  /* width: 80%; */
+  display: flex;
+  /* background-color: aqua; */
+}
+.flag div {
+  height: 30px;
+  width: 90px;
+  box-shadow: 0px 0px 5px -3px;
+  border-radius: 6px 6px 6px 6px;
+  margin-left: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.nested_section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.footer_links p {
+  padding: 10px 0;
+  color: rgba(0, 0, 0, 0.626);
+}
+.footer_links h6 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.center_bx {
+  height: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  position: absolute;
+  right: 50px;
+}
+
+.footer_mr {
+  margin-top: 30px;
+}

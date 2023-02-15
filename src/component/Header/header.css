@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_content {
+  height: 62%;
+  width: 100%;
+  background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  background-size: cover;
+  color: white;
+}
+
+.nav_bar ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  height: 72px;
+  justify-content: flex-end;
+  font-family: Okra, Helvetica, sans-serif;
+  margin-right: 50px;
+  padding: 1.7rem;
+}
+
+.nav_bar ul li {
+  margin-left: 50px;
+}
+.center_nested_text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.zomato_img {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.zomato_img img{
+    width: 250px;
+}
+
+.zomato_line{
+    height: 100%;
+    width: 100%;
+    /* background-color:black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.main_zomato_border{
+    /* height: 50px; */
+    width: 100%;
+    /* background-color:brown; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.zomato_search_bar{
+    height: 3.80rem;
+    width: 60%;
+    display: flex;
+    align-items: center;
+   
+    background-color:white;
+  border-radius: 0.8rem;
+}
+
+.left_side_search{
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 50px;
+
+    /* background-color: aqua; */
+}
+
+.left_side_search span{
+    margin-right:10px;
+    color: pink;
+}
+
+.left_side_search h2{
+    color: rgba(0, 0, 0, 0.575);
+    
+}
+
+.br_right{
+    height: 30px;
+    border-left: 1px solid black;
+    margin-right: 10px;
+}
+.search_bar{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.search_bar span{
+    color: black;
+}
+.search_icon{
+    margin-right: 20px;
+}
+
+.input_search_bar{
+    height: 100%;
+    width: 100%;
+    
+    font-family: Okra, Helvetica, sans-serif;
+/* margin-right: 20px; */
+
+}
+
+.input_search_bar input{
+    height: 3.70rem;
+    width: 90%;
+    border-style: none;
+    overflow: hidden;
+}
